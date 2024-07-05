@@ -1,0 +1,63 @@
+.app {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: #000;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin: 10px 0;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
